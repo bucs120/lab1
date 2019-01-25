@@ -18,14 +18,12 @@ _In this lab, you will learn to:_
 * Work with binary values
 * Convert from binary to decimal and vice versa
 
-Look for these icons!
-
 
 ## Part A: Turing Machine
 
 Assume you have a Turing machine, as discussed in class, with the instructions Left, Right, Read, Write. Each memory location is 1 bit.
 1. A single read operation reads in 4 sequential bits starting from the head location.
-    * Successive reads adds to the value currently in memory
+    * Successive reads add to the value currently in memory
 2. A single write operation writes the current state value as 4 bits in sequential memory locations.
     * After any write operation, the machine state is cleared to 0.
 3. A single Left operation moves the head 1 memory location left.
@@ -49,7 +47,7 @@ We would like the Turing Machine to complete the following operation:
 |-24|-32|-15|-1|
 |-----|-----|-----|-----|
 
-3. Do the following addition problems, where the numbers are 5-bit unsigned integers. With a 5-bit result, is the number correct, or do you have an overflow?
+3. Do the following addition problems, where the numbers are 5-bit unsigned integers. With a 5-bit result, is the number correct?
 
 |&nbsp;&nbsp;10110<br>+00101 |&nbsp;&nbsp;10101<br>+00111 |&nbsp;&nbsp;10100<br>+00111 |&nbsp;&nbsp;01111<br>+11110 |
 |-|-|-|-|
