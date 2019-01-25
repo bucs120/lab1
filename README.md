@@ -1,5 +1,5 @@
 #### CS 120 - Spring 2019
-# Lab 1 - Setting Up Your Environment
+# Lab 1 - Working with Binary
 ## Due Date: In Lab
 
 ### Provided Files
